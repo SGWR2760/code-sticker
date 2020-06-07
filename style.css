@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;800&display=swap');
 
 :root {
-  --main-color: #ffc7c7;
-  --sub-color:#ffe2e2;
-  --bg-color:#f6f6f6;
-  --accent-color:#8785a2;
+  --main-color: #cb6ce6;
+  --sub-color: #ffe2e2;
+  --bg-color: #f6f6f6;
+  --accent-color: #8785a2;
 }
 
-body{
+body {
   background-color: var(--bg-color);
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: 'M PLUS 1p', sans-serif;
 }
-h3{
+
+h3 {
   /* text-align: center; */
 }
 
-.submitbutton{
+.submitbutton {
   background-color: var(--main-color);
+  color: white;
 }
