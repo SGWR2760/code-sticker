@@ -107,7 +107,7 @@
           <h3>コード</h3>
           <p>
             <div class="form-group">
-              <label for="exampleFormControlFile1">LINE QRコード画像:</label>
+              <label for="myImage">LINE QRコード画像:</label>
               <input type="file" class="form-control-file mb-3" name="pic" id="myImage" accept="image/*">
               <img id="preview" class="img-fluid">
             </div>
@@ -115,9 +115,8 @@
           <p>
             <div class="mb-3">
               <label for="setNumber">数量:</label>
-              <select id="setNumber" class="custom-select" required onchange="changeTotalPrice(this.value)">
-                <option value="">セット数を選択</option>
-                <option value="1set">１セット（16個×10シート:160枚）</option>
+              <select id="setNumber" class="custom-select" required onchange="changeTotalPrice(this.value)" name="setNumber">
+                <option value="1" selected="selected">１セット（16個×10シート:160枚）</option>
                 <option value="2">２セット（16個×20シート:320枚）</option>
                 <option value="3">３セット（16個×30シート:480枚）</option>
               </select>
@@ -133,7 +132,7 @@
 
           <p>
             <label for="inputName">氏名:</label>
-            <input id="inputName"class="form-control" type="text" placeholder="" required>
+            <input id="inputName"class="form-control" type="text" placeholder="" required name="inputName">
           </p>
 
           <p>
