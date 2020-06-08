@@ -20,3 +20,10 @@ h3 {
   background-color: var(--main-color);
   color: white;
 }
+
+/* ウィンドウ幅が480px以上の場合に適用するCSS */
+@media screen and (min-width:480px) {
+  .card {
+    margin: 5rem !important;
+  }
+}
